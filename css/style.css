@@ -262,7 +262,7 @@ button {
 
 main {
     overflow-x: hidden;
-    max-width: 90%;
+    max-width: 80%;
     margin: 135px auto 0;
 }
 
@@ -379,6 +379,17 @@ img.learn-react {
     margin-top: 3rem;
 }
 
+.tweet:hover{
+	color: #fff;
+	background-color: black;
+}
+
+.remark{
+	background-color: #d0d0d5;
+	padding: 0 5px 2px;
+	font-size: 22px;
+}
+
 
 footer {
     background-color: #eeeef0;
@@ -464,6 +475,10 @@ ul {
     .header-right {
         font-size: 18px;
     }
+
+	.header-right a{
+		display: block;
+	}
 
     .header-bottom a,
     .header-bottom span {
